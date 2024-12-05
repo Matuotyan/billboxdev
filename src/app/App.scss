@@ -1,76 +1,123 @@
-.all_logo_frame{
-    display: flex;
-    justify-content: space-between;
-}
-.logo_flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 10rem;
-    cursor: pointer;
-}
-.img{
-    background-image: url(public/logo.c796eef1ae2b1d454aaf.png);
-    width: 3rem;
-    height: 3rem;
-    background-size: cover;
-}
-.logo_title{
-    font-size: 1.8rem;
-    font-weight: bold;
-}
-.contents{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 3rem;
-}
-.content{
-    font-size: 1.25rem;
-    transition: 0.5s;
-&:hover{
-    cursor: pointer;
-    color: greenyellow;
-    transition: 0.5s;
-    }
-}
-.login_sinki{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-}
-.login_frame{
-    transition: 0.5s;
-    height: 3rem;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    &:hover{
-        background-color: azure;
-        border-radius: 0.6rem;
-        transition: 0.5s;
-    }
-}
-.login{
-    font-size: 0.9rem;
+.App-header {
+    background-color: white;
+    padding-bottom: 6rem;
+  }
+  
+  .header-container {
+    padding-bottom: 8rem;
+  }
+  
+  .header-content {
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0 2rem;
-}
-.sinki_frame{
-    border-radius: 0.6rem;
-    background-color: greenyellow;
-    height: 3rem;
+  }
+  
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .header-logo {
     display: flex;
     align-items: center;
-    cursor: pointer;
-    &:hover{
-        background-color: green;
-    }
-}
-.sinki{
-    font-size: 0.9rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    gap: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .header-links {
+    display: none;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    transition: color 0.1s;
+  }
+  
+  .nav-link:hover {
+    color: #22c55e;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-login {
+    background-color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a4a4a;
+    border-radius: 0.5rem;
+    transition: background-color 0.1s;
+  }
+  
+  .btn-login:hover {
+    background-color: #e5e5e5;
+  }
+  
+  .btn-register {
+    background-color: #22c55e;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
     color: white;
-
-}
+    border-radius: 0.75rem;
+    transition: background-color 0.1s;
+  }
+  
+  .btn-register:hover {
+    background-color: #16a34a;
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .hero-text {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  .hero-subtitle {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #22c55e;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    color: #6b7280;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .hero-image {
+    width: 100%;
+  }
+  
+  .hero-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
